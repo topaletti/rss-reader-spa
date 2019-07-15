@@ -1,0 +1,74 @@
+.body-container {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 8px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+div#menu {
+  margin-top: 8px;
+}
+
+div.main {
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+div.entry-list {
+    max-height: 10em;
+    overflow-y:auto;
+}
+
+div#category-display {
+    position: absolute;
+    left: 16px;
+    width: 360px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+div#entry-display {
+    position: absolute;
+    left: 400px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+button {
+  margin: 0 0 0 8px;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
